@@ -119,7 +119,7 @@ export default function Contact() {
               <Mail className="text-blue-400" size={24} />
               <div>
                 <h3 className="text-xl font-semibold">Email</h3>
-                <p className="text-gray-400">Support@nexotra.com</p>
+                <p className="text-gray-400">support@nexotra.com</p>
               </div>
             </div>
           </motion.div>
@@ -148,8 +148,8 @@ export default function Contact() {
                       value={formData.firstName}
                       onChange={handleChange}
                       required
-                      placeholder="John"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md"
+                      placeholder=""
+                      className="w-full px-4 py-3 border border-gray-300 rounded-md bg-gray-100"
                     />
                   </div>
                   <div className="w-1/2">
@@ -160,8 +160,8 @@ export default function Contact() {
                       value={formData.lastName}
                       onChange={handleChange}
                       required
-                      placeholder="Doe"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md"
+                      placeholder=""
+                      className="w-full px-4 py-3 border border-gray-300 rounded-md bg-gray-100"
                     />
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     placeholder="you@example.com"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md bg-gray-100"
                   />
                 </div>
 
@@ -188,7 +188,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     placeholder="+91 1234567890"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md bg-gray-100"
                   />
                 </div>
 
@@ -201,7 +201,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     placeholder="Tell us about your project or requirements"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md bg-gray-100"
                   ></textarea>
                 </div>
 

@@ -52,6 +52,7 @@ function App() {
           }
         />
         <Route path="/about" element={<About />} />
+        <Route path="/ServicesSection" element={<ServicesSection />} />
         <Route
           path="/company"
           element={

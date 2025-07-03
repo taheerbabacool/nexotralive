@@ -158,7 +158,7 @@ function CloudSolutions() {
           >
             Why Choose Our Business Consulting Services?
           </motion.h2>
-          <div className="flex-cols-1 flex items-center md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex-cols-1 flex items-center justify-center md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
              
               { metric: "Expert", label: "Advisory Team" },

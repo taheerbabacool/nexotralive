@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
               Transform your organization with strategic talent acquisition that drives innovation, growth, and lasting success.
             </p>
             <a 
-              href="#contact" 
+              href="/contact" 
               className="inline-flex items-center bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md transition-all hover:shadow-lg group"
             >
               <span>Start Your Journey</span>

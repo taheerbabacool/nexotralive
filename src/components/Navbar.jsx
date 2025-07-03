@@ -9,10 +9,10 @@ const NavBar = () => {
 
   const navLinks = [
     ["Home", "/"],
-    ["About Us", "/about"],
+    ["About", "/about"],
     ["Company", "/company"],
     ["Blogs", "/blogs"],
-    ["Contact Us", "/contact"],
+    ["Contact ", "/contact"],
   ];
 
   return (

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-8 px-4 lg:px-8">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+      <div className="container mx-auto flex  justify-evenly sm:flex-2 md:flex-4 lg:flex-6 gap-16">
 
         {/* Company */}
         <div>
-          <h4 className="font-bold mb-4">Company</h4>
+          <h1 className="font-bold mb-4">Links</h1>
           <ul className="space-y-2">
             <li>
               <Link to="/about" className="hover:text-gray-300">
@@ -25,11 +25,7 @@ const Footer = () => {
                 Blogs
               </Link>
             </li>
-             <li>
-              <Link to="/contact" className="hover:text-gray-300">
-                Contact Us
-              </Link>
-            </li>
+             
           </ul>
         </div>
 
@@ -76,6 +72,11 @@ const Footer = () => {
         <div className="col-span-1 sm:col-span-2 lg:col-span-2">
           <h4 className="font-bold mb-4">Reach Us</h4>
           <p className="mb-2">India - Andhra Pradesh , Anantapur</p>
+          <li>
+              <Link to="/contact" className="hover:text-gray-300">
+                Contact Us
+              </Link>
+            </li>
         </div>
       </div>
 

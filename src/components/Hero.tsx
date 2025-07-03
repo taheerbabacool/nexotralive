@@ -88,7 +88,7 @@ export default function Hero() {
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:Support@nexotra.com"
+            href="mailto:support@nexotra.com"
             className="hover:text-blue-400 transition-colors"
           >
             <Mail size={24} />

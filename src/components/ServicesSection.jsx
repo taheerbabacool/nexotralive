@@ -3,7 +3,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { motion } from "framer-motion";
 import ServiceCard from "../components/ServiceCardbn";
-import Devops from '../components/devops'
 
 const services = [
   {
@@ -23,7 +22,8 @@ const services = [
   {
     id: 3,
     title: "Business Consulting",
-    description: "Navigate complexity, drive transformation, and unlock sustainable growth with our expert business consulting services.",
+    description:
+      "Navigate complexity, drive transformation, and unlock sustainable growth with our expert business consulting services.",
     backgroundImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
     knowmoreLink: "/services/cloud-integration",
   },
@@ -38,15 +38,16 @@ const services = [
     id: 5,
     title: "Talent Hiring",
     description: "Comprehensive security solutions and consulting",
-    backgroundImage: "https://plus.unsplash.com/premium_photo-1661587247631-bca9796a9d59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHRhbGVudCUyMGhpcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
+    backgroundImage:
+      "https://plus.unsplash.com/premium_photo-1661587247631-bca9796a9d59?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHRhbGVudCUyMGhpcmluZ3xlbnwwfHwwfHx8MA%3D%3D",
     knowmoreLink: "/services/Talent-Hiring",
   },
   {
     id: 6,
     title: "Cybersecurity",
     description: "Comprehensive security solutions and consulting",
-   backgroundImage:"https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
-    knowmoreLink: "/services/cybersecurity"
+    backgroundImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    knowmoreLink: "/services/cybersecurity",
   },
 ];
 
@@ -71,14 +72,7 @@ const CustomLeftArrow = ({ onClick }) => (
     className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black rounded-full shadow p-2 z-50"
     aria-label="Previous Slide"
   >
-    <svg
-      className="w-4 h-4"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
     </svg>
   </button>
@@ -90,25 +84,30 @@ const CustomRightArrow = ({ onClick }) => (
     className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black rounded-full shadow p-2 z-50"
     aria-label="Next Slide"
   >
-    <svg
-      className="w-4 h-4"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
     </svg>
   </button>
 );
+
+// Optional: Custom styled dot
+const CustomDot = ({ onClick, ...rest }) => {
+  const { active } = rest;
+  return (
+    <li
+      className={`w-3 h-3 rounded-full mx-1 cursor-pointer transition-all duration-300 ${
+        active ? "bg-blue-500 scale-125" : "bg-gray-300"
+      }`}
+      onClick={onClick}
+    />
+  );
+};
 
 const ServicesSection = () => {
   return (
     <div className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-4xl font-bold text-black mb-4">Our Services</p>
           <h2 className="text-4xl font-bold text-black">
             Achieve{" "}
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
@@ -124,12 +123,18 @@ const ServicesSection = () => {
             infinite
             swipeable
             draggable
-            showDots={false}
+            showDots={true}
+            autoPlay={true}
+autoPlaySpeed={2000} // (milliseconds) Change slide every 3 seconds
+
+            renderDotsOutside={true}
+            customDot={<CustomDot />}
             arrows
             customLeftArrow={<CustomLeftArrow />}
             customRightArrow={<CustomRightArrow />}
             itemClass="px-2"
             containerClass="py-4"
+            dotListClass=" justify-center  gap-2"
           >
             {services.map((service, index) => (
               <motion.div

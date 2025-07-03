@@ -100,8 +100,8 @@ export const blogPosts = [
       p: "Continuous improvement is crucial—evaluate processes, collect feedback, and adopt new technologies to sustain progress.",
     },
     div6: {
-      h2: "Federal Soft Systems: Your Partner in Workflow Optimization",
-      p1: `Federal Soft Systems (FSS) specializes in improving business
+      h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
+      p1: `Nexotra Technologies (FSS) specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
@@ -117,7 +117,7 @@ export const blogPosts = [
               enhances efficiency, reduces costs, and improves business
               outcomes. Investing in workflow optimization ensures long-term
               cost-effectiveness and competitiveness.`,
-      p2: `Federal Soft Systems is your trusted partner for digital
+      p2: `Nexotra Technologies is your trusted partner for digital
               transformation. Through innovative solutions and expert support,
               we help businesses achieve efficiency and performance goals in a
               rapidly evolving market.`,
@@ -220,8 +220,8 @@ export const blogPosts = [
       p: "Continuous improvement is crucial—evaluate processes, collect feedback, and adopt new technologies to sustain progress.",
     },
     div6: {
-      h2: "Federal Soft Systems: Your Partner in Workflow Optimization",
-      p1: `Federal Soft Systems (FSS) specializes in improving business
+      h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
+      p1: `Nexotra Technologies (FSS) specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
@@ -237,7 +237,7 @@ export const blogPosts = [
               enhances efficiency, reduces costs, and improves business
               outcomes. Investing in workflow optimization ensures long-term
               cost-effectiveness and competitiveness.`,
-      p2: `Federal Soft Systems is your trusted partner for digital
+      p2: `Nexotra Technologies is your trusted partner for digital
               transformation. Through innovative solutions and expert support,
               we help businesses achieve efficiency and performance goals in a
               rapidly evolving market.`,
@@ -338,8 +338,8 @@ export const blogPosts = [
       p: "Continuous improvement is crucial—evaluate processes, collect feedback, and adopt new technologies to sustain progress.",
     },
     div6: {
-      h2: "Federal Soft Systems: Your Partner in Workflow Optimization",
-      p1: `Federal Soft Systems (FSS) specializes in improving business
+      h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
+      p1: `Nexotra Technologies (FSS) specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
@@ -355,7 +355,7 @@ export const blogPosts = [
               enhances efficiency, reduces costs, and improves business
               outcomes. Investing in workflow optimization ensures long-term
               cost-effectiveness and competitiveness.`,
-      p2: `Federal Soft Systems is your trusted partner for digital
+      p2: `Nexotra Technologies is your trusted partner for digital
               transformation. Through innovative solutions and expert support,
               we help businesses achieve efficiency and performance goals in a
               rapidly evolving market.`,
@@ -457,8 +457,8 @@ export const blogPosts = [
       p: "Continuous improvement is crucial—evaluate processes, collect feedback, and adopt new technologies to sustain progress.",
     },
     div6: {
-      h2: "Federal Soft Systems: Your Partner in Workflow Optimization",
-      p1: `Federal Soft Systems (FSS) specializes in improving business
+      h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
+      p1: `Nexotra Technologies (FSS) specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
@@ -474,7 +474,7 @@ export const blogPosts = [
               enhances efficiency, reduces costs, and improves business
               outcomes. Investing in workflow optimization ensures long-term
               cost-effectiveness and competitiveness.`,
-      p2: `Federal Soft Systems is your trusted partner for digital
+      p2: `Nexotra Technologies is your trusted partner for digital
               transformation. Through innovative solutions and expert support,
               we help businesses achieve efficiency and performance goals in a
               rapidly evolving market.`,
@@ -575,8 +575,8 @@ export const blogPosts = [
       p: "Continuous improvement is crucial—evaluate processes, collect feedback, and adopt new technologies to sustain progress.",
     },
     div6: {
-      h2: "Federal Soft Systems: Your Partner in Workflow Optimization",
-      p1: `Federal Soft Systems (FSS) specializes in improving business
+      h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
+      p1: `Nexotra Technologies (FSS) specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
@@ -592,7 +592,7 @@ export const blogPosts = [
               enhances efficiency, reduces costs, and improves business
               outcomes. Investing in workflow optimization ensures long-term
               cost-effectiveness and competitiveness.`,
-      p2: `Federal Soft Systems is your trusted partner for digital
+      p2: `Nexotra Technologies is your trusted partner for digital
               transformation. Through innovative solutions and expert support,
               we help businesses achieve efficiency and performance goals in a
               rapidly evolving market.`,
