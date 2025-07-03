@@ -101,12 +101,12 @@ export const blogPosts = [
     },
     div6: {
       h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
-      p1: `Nexotra Technologies (FSS) specializes in improving business
+      p1: `Nexotra Technologies specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
               costs, and improve business performance.`,
-      p2: `FSS also prioritizes employee training and support, offering
+      p2: `We prioritizes employee training and support, offering
               comprehensive programs to maximize your IT investments. Our proven
               track record ensures successful digital transformation and
               operational excellence.`,
@@ -221,12 +221,12 @@ export const blogPosts = [
     },
     div6: {
       h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
-      p1: `Nexotra Technologies (FSS) specializes in improving business
+      p1: `Nexotra Technologies specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
               costs, and improve business performance.`,
-      p2: `FSS also prioritizes employee training and support, offering
+      p2: `we also prioritizes employee training and support, offering
               comprehensive programs to maximize your IT investments. Our proven
               track record ensures successful digital transformation and
               operational excellence.`,
@@ -339,12 +339,12 @@ export const blogPosts = [
     },
     div6: {
       h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
-      p1: `Nexotra Technologies (FSS) specializes in improving business
+      p1: `Nexotra Technologies specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
               costs, and improve business performance.`,
-      p2: `FSS also prioritizes employee training and support, offering
+      p2: `we also prioritizes employee training and support, offering
               comprehensive programs to maximize your IT investments. Our proven
               track record ensures successful digital transformation and
               operational excellence.`,
@@ -458,12 +458,12 @@ export const blogPosts = [
     },
     div6: {
       h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
-      p1: `Nexotra Technologies (FSS) specializes in improving business
+      p1: `Nexotra Technologies specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
               costs, and improve business performance.`,
-      p2: `FSS also prioritizes employee training and support, offering
+      p2: `we also prioritizes employee training and support, offering
               comprehensive programs to maximize your IT investments. Our proven
               track record ensures successful digital transformation and
               operational excellence.`,
@@ -576,12 +576,12 @@ export const blogPosts = [
     },
     div6: {
       h2: "Nexotra Technologies: Your Partner in Workflow Optimization",
-      p1: `Nexotra Technologies (FSS) specializes in improving business
+      p1: `Nexotra Technologies specializes in improving business
               processes through innovative, customized IT solutions. With
               expertise in cloud computing, automation, and data analysis, we
               provide tailored software solutions to enhance efficiency, reduce
               costs, and improve business performance.`,
-      p2: `FSS also prioritizes employee training and support, offering
+      p2: `we also prioritizes employee training and support, offering
               comprehensive programs to maximize your IT investments. Our proven
               track record ensures successful digital transformation and
               operational excellence.`,
